@@ -1,4 +1,5 @@
-# rpg_visual_novel_ui
+#### rpg_visual_novel_ui
+
 # Instructions:
 
 ### For Google Colab:
@@ -49,7 +50,7 @@ python rpg_visual_novel_ui/visual_novel_browser_server.py \
     --web-root-directory rpg_visual_novel_ui/web \
     --vn-images-root-directory rpg_visual_novel_ui/vn_images \
     --listen-port 8765
-```b
+```
 
 # Sample Tree
 
@@ -121,7 +122,5 @@ $ tree
         ├── index.html
         ├── vn.css
         └── vn.js
-
-11 directories, 55 files
 
 11 directories, 55 files
