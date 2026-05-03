@@ -53,8 +53,7 @@ python rpg_visual_novel_ui/visual_novel_browser_server.py \
 ```
 
 # Sample Tree
-
-$ tree
+```text
 $ tree
 .
 ├── logs
@@ -124,3 +123,4 @@ $ tree
         └── vn.js
 
 11 directories, 55 files
+```
