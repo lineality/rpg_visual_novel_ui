@@ -1,5 +1,4 @@
 # rpg_visual_novel_ui
-
 # Instructions:
 
 ### For Google Colab:
@@ -26,29 +25,31 @@ the google or anthropic pip packages.
 
 
 # to run from terminal:
-
+```bash
 python visual_novel_browser_server.py \
     --logs-root-directory ./logs \
     --web-root-directory ./web \
     --vn-images-root-directory ./vn_images \
     --listen-port 8765
+```
 
 # e.g. using full paths
-
+```bash
 python /home/abc/code/ai_rpg_arena/rpg_visual_novel_ui/visual_novel_browser_server.py \
     --logs-root-directory /home/abc/code/ai_rpg_arena/logs \
     --web-root-directory /home/abc/code/ai_rpg_arena/rpg_visual_novel_ui/web \
     --vn-images-root-directory /home/abc/code/ai_rpg_arena/rpg_visual_novel_ui/vn_images \
     --listen-port 8765
+```
 
 # e.g. using local paths paths from cwd /ai_rpg_arena/
-
+```bash
 python rpg_visual_novel_ui/visual_novel_browser_server.py \
     --logs-root-directory logs \
     --web-root-directory rpg_visual_novel_ui/web \
     --vn-images-root-directory rpg_visual_novel_ui/vn_images \
     --listen-port 8765
-
+```b
 
 # Sample Tree
 
@@ -120,5 +121,7 @@ $ tree
         ├── index.html
         ├── vn.css
         └── vn.js
+
+11 directories, 55 files
 
 11 directories, 55 files
